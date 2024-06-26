@@ -10,7 +10,7 @@ const Hero = () => {
         {/* Content*/}
         <div>
           <h1 className='text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-black font-bold uppercase'>
-            Mega Sale <span className='text-rose-600'>Special
+            Mega Sale <span className='text-blue-600'>Special
               <br /></span> Offer Up To {" "}
             <span className='text-orange-500'>60%</span>{" "} Off
           </h1>
