@@ -46,7 +46,7 @@ const ProductDetails = async ({ params }: { params: { id: string } }) => {
           <p className='mt-2 text-black text-sm text-opacity-70 font-semibold'>Tag: Shop, danny</p>
           <p className='mt-2 text-black text-sm text-opacity-70 font-semibold'>SKU: {Math.random() * 500}</p>
           {/* AddToCart */}
-          <AddToCart />
+          <AddToCart product = {singleProduct}/>
         </div>
       </div>
       <div className='w-4/5 mx-auto mt-16'>
