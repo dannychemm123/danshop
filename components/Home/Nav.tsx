@@ -17,7 +17,7 @@ const Nav = () => {
             {/*Icons*/}
             <div className='flex items-center space-x-6'>
               {/* SearchBox */}
-              <SearchBox/>
+               <SearchBox/>
               {/* HeartIcon */}
               <Heart size={26} cursor={'pointer'}/>
               <ShoppingCartButton/>

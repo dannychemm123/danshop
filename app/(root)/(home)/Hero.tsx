@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
         {/* Image content*/}
         <div className='flex justify-center lg:justify-end'>
-          <Image src={'/images/hero.svg'} alt='hero' width={600} height={600}
+          <Image src={'/images/hero1.jpg'} alt='hero' width={900} height={900}
             className='lg:h-[50%] lg:w-[50%] xl:h-[80%] xl:w-[80%]' />
         </div>
       </div>
